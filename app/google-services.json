@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "674043482824",
+    "firebase_url": "https://newsignin-1552703340540.firebaseio.com",
+    "project_id": "newsignin-1552703340540",
+    "storage_bucket": "newsignin-1552703340540.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:674043482824:android:c44c54ca431a41a3",
+        "android_client_info": {
+          "package_name": "com.example.nitish235.newsignin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "674043482824-5dtja5u39nb3rps7mu2vbovof1i6oh3v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.nitish235.newsignin",
+            "certificate_hash": "3f209f48decd7cf046ff6e381735ebdb0910ce17"
+          }
+        },
+        {
+          "client_id": "674043482824-bvpi62ue6miere8ca64boeogf8anuip8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBf8khw6NrsmEm3n7JrDC9eS4UXGwXz6Ws"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "674043482824-bvpi62ue6miere8ca64boeogf8anuip8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/map"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/TFaddress"
+            android:layout_width="300dp"
+            android:textColor="@android:color/background_light"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/Bsearch"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="12dp"
+            android:background="@android:color/transparent"
+            android:onClick="onSearch"
+            android:text="Search"
+            android:textColor="@android:color/tab_indicator_text"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteY="0dp" />
+    </LinearLayout>
+    android:layout_width="wrap_content"
+    android:layout_height="500dp">
+
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="8dp"
+        tools:context=".MapsActivity" />
+
+    <Button
+        android:id="@+id/paybtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0"
+        android:background="@android:color/transparent"
+        android:onClick="onPress"
+        android:text="Pay Now"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">E-Toll</string>
+    <string name="name_name_here">Name: NAME HERE</string>
+    <string name="email_email_here">Email: EMAIL HERE</string>
+    <string name="id_id_here">ID: ID HERE</string>
+    <string name="sign_out">Sign out</string>
+    <string name="todo">TODO</string>
+    <string name="title_activity_maps">Map</string>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/moon_and_stars"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sign_in_button"
+        android:layout_alignEnd="@+id/sign_in_button"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="Welcome to E-Toll"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="8dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:paddingLeft="4dp"
+        android:paddingTop="4dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="4dp"
+        android:text="Please Sign In to continue"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#008000"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="40sp" />
+
+</LinearLayout>
