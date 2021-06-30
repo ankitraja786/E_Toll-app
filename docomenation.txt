@@ -1,0 +1,12 @@
+                                           
+                                             E_Toll- app
+
+Worked on this  project in a hackathon  with a group of peers.
+
+created an Android app through whch a person can pay the toll tax of his journey before  reaching the toll booth .with image  processing ,
+the vehicle number will be read and then  checked in our database .on positive response ,the vehicle will be allowed to pass.
+
+used android stdio ,java, google maps SDK,Razorpay Android SDk
+
+
+Razorpay  - It gives you access to all payment modes including credit card, debit card, netbanking, UPI and popular wallets including JioMoney, Mobikwik, Airtel Money, FreeCharge, Ola Money and PayZapp.
